@@ -1,5 +1,32 @@
 /* @prashantxc */
 
+
+/*Title*/
+.title-main {
+	position: relative;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.title-quote-big {
+	font-size: 2em;
+}
+
+
+/*Separator*/
+.separator-main {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	top: 20px;
+}
+
+.separator-main-line {
+
+}
+
+
+/*Card*/
 .card {
 	background: #fff;
 	border-radius: 2px;
@@ -15,10 +42,19 @@
 }
 
 
+/*for mobile only*/
 @media only screen and (max-width: 768px) {
 
-	.for-mobile {
+	.not-for-mobile {
 		display: none;
+	}
+
+	.title-main {
+		text-align: justify;
+		margin-top: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 2em;
 	}
 
 	.card-main {
@@ -40,10 +76,19 @@
 }
 
 
+/*for desktop only*/
 @media only screen and (min-width: 768px) {
 	
-	.not-for-mobile {
+	.for-mobile {
 		display: none;
+	}
+
+	.title-main {
+		text-align: justify;
+		margin-top: 20px;
+		margin-left: 20%;
+		margin-right: 20%;
+		line-height: 2em;
 	}
 
 	.footer-main {
@@ -59,6 +104,8 @@
 }
 
 
+
+/*Footer*/
 .footer-main-container {
 	color: white; 
 }
@@ -67,6 +114,12 @@
 	color: white;
 }
 
+
+/*Misc*/
 .red-color {
 	color: red;
+}
+
+.extra-white-space {
+	height: 3vh;
 }
