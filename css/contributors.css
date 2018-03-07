@@ -1,0 +1,62 @@
+/* @prashantxc */
+
+
+/*for mobile only*/
+@media only screen and (max-width: 768px) {
+
+	.not-for-mobile {
+		display: none;
+	}
+
+	.footer-main {
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		background: black;
+		display: flex;
+		width: 100%;
+		height: 8vh;
+		bottom: 0;
+	}
+}
+
+
+/*for desktop only*/
+@media only screen and (min-width: 768px) {
+	
+	.for-mobile {
+		display: none;
+	}
+
+	.footer-main {
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+		background: black;
+		display: flex;
+		width: 100%;
+		height: 8vh;
+		bottom: 0;
+	}
+}
+
+
+
+/*Footer*/
+.footer-main-container {
+	color: white; 
+}
+
+.footer-main-container a {
+	color: white;
+}
+
+
+/*Misc*/
+.red-color {
+	color: red;
+}
+
+.extra-white-space {
+	height: 3vh;
+}
