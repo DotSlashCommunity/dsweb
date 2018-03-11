@@ -15,7 +15,6 @@
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
 /*Card*/
 .card-cont p {
 	text-align: center;
@@ -81,10 +80,7 @@
 	}
 }
 
-
-
 /*Footer*/
-
 .footer-cont {
 	position: relative;
 	justify-content: center;
@@ -103,7 +99,6 @@
 .footer-cont-container a {
 	color: white;
 }
-
 
 /*Misc*/
 .red-color {
